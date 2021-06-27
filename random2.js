@@ -1,8 +1,8 @@
-    xmin = 300;        //　左　動く範囲の設定
+    xmin = 200;        //　左　動く範囲の設定
     ymin = 0;        //　上
-    xmax = 600;        //　右
+    xmax = 700;        //　右
     ymax = 300;        //　下
-    x = 0;
+    x = 100;
     y = 0;
     function move(){                        //　移動方向を決める
         rand = Math.floor(Math.random() * 10);
@@ -26,18 +26,18 @@
         }
                                     //　画像の移動
         if(x == 0) {                        //　右に移動
-            img1.style.pixelLeft    = img1.style.pixelLeft    + 30;
+            img1.style.pixelLeft    = img1.style.pixelLeft    + 50;
         }
         else if(x == 1) {                    //　左に移動
-            img1.style.pixelLeft    = img1.style.pixelLeft    - 30;
+            img1.style.pixelLeft    = img1.style.pixelLeft    - 50;
         }
         if(y == 0) {                        //　下に移動
-            img1.style.pixelTop    = img1.style.pixelTop    + 15;
+            img1.style.pixelTop    = img1.style.pixelTop    + 30;
         }
         else if(y == 1) {                    //　上に移動
-            img1.style.pixelTop    = img1.style.pixelTop    - 15;
+            img1.style.pixelTop    = img1.style.pixelTop    - 30;
         }
     }
     //function tm(){                            //　タイマー
-        setInterval("move()",100);
+        setInterval("move()",300);
     //}
