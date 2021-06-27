@@ -4,3 +4,8 @@ body {
     color : #FFFFEE;
     background-color: #C2EEFF;
 }
+#img1{
+    position:absolute;
+    top:200; 
+    left:200;
+}
