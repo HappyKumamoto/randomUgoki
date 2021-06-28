@@ -1,8 +1,8 @@
-    xmin = 200;        //　左　動く範囲の設定
+    xmin = 0;        //　左　動く範囲の設定
     ymin = 0;        //　上
-    xmax = 700;        //　右
+    xmax = 300;        //　右
     ymax = 300;        //　下
-    x = 100;
+    x = 0;
     y = 0;
     function move(){                        //　移動方向を決める
         rand = Math.floor(Math.random() * 10);
